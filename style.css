@@ -1,13 +1,21 @@
+html{
+    height: 100%;
+}
 body{
-    background-color: rgb(68, 68, 67);
+    background-color: rgba(68, 68, 67, 0);
+    background-image: url(house.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 .bg{
     text-align: center;
     
+    
 }
 header {
-    background-color: rgb(68, 68, 67);
-    height: 200px;
+    background-color: rgb(68, 68, 67,0);
+    height: 150px;
     
     
 }
@@ -17,8 +25,8 @@ nav{
     
 }
 main{
-    background-color: orange;
-    height: 390px;
+    background-color: rgb(68, 68, 67, 0);
+    height: 380px;
     
 }
 
@@ -26,4 +34,22 @@ main{
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
+    background-color:rgb(68, 68, 67, 0) ;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-align: center;
+    color: white;
+    padding-left: 40%;
+    font-size: 250%;
 }

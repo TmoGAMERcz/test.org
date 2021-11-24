@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(68, 68, 67);
+}
+.bg{
+    text-align: center;
+    
+}
+header {
+    background-color: rgb(68, 68, 67);
+    height: 200px;
+    
+    
+}
+nav{
+    background-color: red;
+    height: 30px;
+    
+}
+main{
+    background-color: orange;
+    height: 390px;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
